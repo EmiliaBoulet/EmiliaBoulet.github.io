@@ -1,0 +1,20 @@
+body
+{
+    background-color: rgb(230, 205, 174);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title
+{
+    color: brown;
+    font-size: 3rem;
+
+
+}
+.text
+{
+    font-weight: bold;
+    color: rgb(107, 39, 14);
+}
