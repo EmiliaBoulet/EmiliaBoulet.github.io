@@ -1,25 +1,156 @@
 body
 {
-    
-   
-    --second-color: rgb(29, 30, 37);
-    font-family: Arial, Helvetica, sans-serif;
+    --second-color: rgb(22, 24, 44);
+    font-family: Helvetica, Arial, sans-serif;
      --background-color: #e0d9d0
 }
 .page
 {
 display: flex;
 height: 100vmax;
+width: 100vmax;
     background-color: var(--background-color);
     color:var(--second-color);
     font-weight: bold;
 }
-
 .page__header
 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 width: 50%;
 }
 .page__main
 {
+    display: flex;
+    flex-direction: column;
     width: 50%;
+    align-items: center;
+}
+
+/**************************HEADER************************************/
+
+/***************TOP*****************/
+.header__top
+{
+display: flex;
+
+}
+
+.header__down
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top__logo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 10px solid var(--second-color);
+    border-right: 5px solid var(--second-color);
+
+    padding: 2vh;
+    box-sizing: border-box;
+
+    gap: 1.5vh;
+}
+.top__title
+{
+    font-size: 0.7em;
+    text-align: center;
+}
+.top__infos
+{
+    width: 50%;
+    border: 10px solid var(--second-color);
+    border-left: 5px solid var(--second-color);
+    padding: 2vh;
+    box-sizing: border-box;
+
+}
+
+.top__logo-emiii
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.top__logo-emilia
+{
+    max-width: 30%;
+}
+
+.top__infos-list
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8em;
+    gap: 2vh;
+}
+.top__infos-icone
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infos__family
+{
+    max-width: 15%;
+}
+/***************DOWN*****************/
+.down__photos
+{
+    display: flex;
+    justify-content: center;
+    border: 10px solid var(--second-color);
+    border-bottom: 5px solid var(--second-color);
+    border-top: 0px solid var(--second-color);
+
+    padding: 1vh;
+
+}
+
+.down__photos-1
+{
+    max-width: 40%;
+    
+}
+
+.down__footer
+{
+  
+  font-size: 1.9vh;
+  
+}
+
+.down__footer-legend
+{
+      border: 10px solid var(--second-color);
+    border-top: 5px solid var(--second-color);
+    padding: 1.5vh 35vh;
+    
+}
+
+/**************************MAIN************************************/
+
+
+
+/***************TOP*****************/
+
+
+
+
+/***************DOWN*****************/
+
+.mail__logo
+{
+    width: 20%;
+    
 }
