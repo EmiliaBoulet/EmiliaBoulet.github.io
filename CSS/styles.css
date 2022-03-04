@@ -1,22 +1,25 @@
 body
 {
-    background-color: #0C2735;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    color: blanchedalmond;
+    
+   
+    --second-color: rgb(29, 30, 37);
     font-family: Arial, Helvetica, sans-serif;
+     --background-color: #e0d9d0
 }
-
-.title
+.page
 {
-    color: rgb(145, 42, 42);
-    font-size: 3rem;
-
-
-}
-.text
-{
+display: flex;
+height: 100vmax;
+    background-color: var(--background-color);
+    color:var(--second-color);
     font-weight: bold;
-    color: rgb(107, 39, 14);
+}
+
+.page__header
+{
+width: 50%;
+}
+.page__main
+{
+    width: 50%;
 }
